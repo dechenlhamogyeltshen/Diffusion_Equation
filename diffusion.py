@@ -116,7 +116,7 @@ def stability():
     plt.legend(loc='best', bbox_to_anchor=(1, 1))
     plt.xlabel('$T-T_0$ (K)')
     plt.ylabel('z (m)')
-    plt.savefig('plots/TCS_one_timestep.pdf', bbox_inches='tight')
+    plt.savefig('plots/BTCS_one_timestep.pdf', bbox_inches='tight')
     plt.show()
     
 steady_state()
